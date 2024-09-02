@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    height: 100vh;
+    background-color: #767979;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    /* height: 60px; */
+    flex-grow: 1;
+    background-color: #4f4f57;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 10;
+    background-color: #767979;
+    text-align: center;
+    color: #4f4f57;
+}
+article .judul{
+    font-family: Baumans , Verdana, Geneva, Tahoma, sans-serif;
+    /* border: 1px solid white; */
+    padding: 10px;
+    flex-grow: 1;
+}
+.judul h1{
+    font-size: 50px;
+}
+.card-wrapper{
+    /* border: 1px solid white; */
+    flex-grow: 15;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.card-wrapper .card-scroll{
+    display: flex;    
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+    overflow: scroll;
+
+}
+.card-wrapper .card-scroll .card{
+    height: 300px;
+    width: 300px;
+    background-color: #96a3a7;
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+footer{
+    flex-grow: 1;
+    background-color: #4f4f57;
+    padding: 10px;
+    text-align: center;
+
+}
+
